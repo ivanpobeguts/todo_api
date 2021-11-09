@@ -1,0 +1,11 @@
+fastapi
+pydantic
+SQLAlchemy
+uvicorn
+psycopg2
+requests
+
+pytest
+pytest-mock
+flake8
+mypy
