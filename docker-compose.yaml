@@ -12,18 +12,3 @@ services:
       - POSTGRES_DB=postgres
     ports:
       - "5433:5432"
-
-#  todo_api:
-#    build:
-#      context: .
-#      dockerfile: ./scripts/Dockerfile
-#    volumes:
-#      - ./:/app
-#    container_name: vehicle_builder
-#    working_dir: /app
-#    command: "python3 main.py"
-#    tty: true
-#    ports:
-#      - 127.0.0.1:8080:8080
-#    depends_on:
-#      - postgres
